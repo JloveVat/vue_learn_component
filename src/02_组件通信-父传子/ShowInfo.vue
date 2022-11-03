@@ -9,6 +9,8 @@
 <script>
 export default {
   // props: ['name', 'age', 'height']
+  // 阻止没有props的属性绑定到该组件跟元素上
+  // inheritAttrs: false,
   props: {
     name: {
       type: String,
